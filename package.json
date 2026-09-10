@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "import-heidi": "node scripts/import_heidi.js"
   },
   "dependencies": {
     "expo": "~54.0.36",

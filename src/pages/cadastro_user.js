@@ -26,5 +26,23 @@ export default function CadastroUser({ onBack, onMenu }) {
 }
 
 const styles = StyleSheet.create({
-  safe: { backgroundColor: '#FFFFFF', flex: 1 }, keyboard: { flex: 1 }, content: { paddingHorizontal: 24, paddingTop: 18, paddingBottom: 42 }, back: { alignSelf: 'flex-start', marginBottom: 22, paddingVertical: 6 }, backText: { color: '#146CFF', fontSize: 16, fontWeight: '700' }, eyebrow: { color: '#303743', fontSize: 15, marginBottom: 7 }, title: { color: '#20242A', fontSize: 30, fontWeight: '700', lineHeight: 37 }, description: { color: '#303743', fontSize: 16, lineHeight: 23, marginTop: 7 }, form: { marginTop: 30 }, field: { marginBottom: 20 }, label: { color: '#20242A', fontSize: 16, marginBottom: 9 }, input: { borderColor: '#D9DEE7', borderRadius: 8, borderWidth: 1, color: '#20242A', fontSize: 16, height: 51, paddingHorizontal: 15 }, select: { alignItems: 'center', borderColor: '#D9DEE7', borderRadius: 8, borderWidth: 1, flexDirection: 'row', height: 51, justifyContent: 'space-between', paddingHorizontal: 15 }, selectText: { color: '#20242A', fontSize: 16 }, row: { flexDirection: 'row', gap: 12 }, half: { flex: 1 }, notes: { height: 96, paddingTop: 13 }, submit: { alignItems: 'center', backgroundColor: '#146CFF', borderRadius: 8, justifyContent: 'center', minHeight: 51 }, submitText: { color: '#FFFFFF', fontSize: 16, fontWeight: '700' },
+  safe: { backgroundColor: '#FFFFFF', flex: 1 },
+  keyboard: { flex: 1 },
+  content: { paddingHorizontal: 24, paddingTop: 18, paddingBottom: 42 },
+  back: { alignSelf: 'flex-start', marginBottom: 22, paddingVertical: 6 },
+  backText: { color: '#146CFF', fontSize: 16, fontWeight: '700' },
+  eyebrow: { color: '#303743', fontSize: 15, marginBottom: 7 },
+  title: { color: '#20242A', fontSize: 30, fontWeight: '700', lineHeight: 37 },
+  description: { color: '#303743', fontSize: 16, lineHeight: 23, marginTop: 7 },
+  form: { marginTop: 30 },
+  field: { marginBottom: 20 },
+  label: { color: '#20242A', fontSize: 16, marginBottom: 9 },
+  input: { borderColor: '#D9DEE7', borderRadius: 8, borderWidth: 1, color: '#20242A', fontSize: 16, height: 51, paddingHorizontal: 15 },
+  select: { alignItems: 'center', borderColor: '#D9DEE7', borderRadius: 8, borderWidth: 1, flexDirection: 'row', height: 51, justifyContent: 'space-between', paddingHorizontal: 15 },
+  selectText: { color: '#20242A', fontSize: 16 },
+  row: { flexDirection: 'row' },
+  half: { flex: 1, paddingHorizontal: 6 },
+  notes: { height: 96, paddingTop: 13 },
+  submit: { alignItems: 'center', backgroundColor: '#146CFF', borderRadius: 8, justifyContent: 'center', minHeight: 51 },
+  submitText: { color: '#FFFFFF', fontSize: 16, fontWeight: '700' },
 });
